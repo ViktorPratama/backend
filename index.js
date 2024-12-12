@@ -19,7 +19,7 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY
 console.log('Supabase initialized:', supabase);
 
 app.use(cors({
-  origin: 'https://rantaucash.vercel.app',  // Atur sesuai dengan domain frontend Anda
+  origin: 'https://rantaucash.vercel.app/',  // Atur sesuai dengan domain frontend Anda
 }));
 
 app.use(express.json());
